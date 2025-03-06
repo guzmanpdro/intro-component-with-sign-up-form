@@ -64,7 +64,7 @@ body {
   min-height: 100dvh;
   margin: 0;
   padding: 90px 24px 74px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   background: url("/images/bg-intro-mobile.png") var(--red);
 }
 
@@ -124,7 +124,7 @@ p {
   width: 100%;
   margin-bottom: 16px;
   padding: 16px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: var(--dark-blue);
   border: 1px solid var(--grayish-blue);
@@ -132,7 +132,7 @@ p {
 }
 
 .form-input::placeholder {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 600;
 }
