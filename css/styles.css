@@ -15,6 +15,15 @@
 }
 
 @font-face {
+  font-family: 'Adjusted Verdana Fallback';
+  src: local(Verdana);
+  size-adjust: 95%;
+  ascent-override: 125%;
+  descent-override: normal;
+  line-gap-override: normal;
+}
+
+@font-face {
   font-family: "Poppins";
   src: url("/fonts/Poppins-Light.woff") format("woff");
   font-weight: 300;
@@ -64,7 +73,7 @@ body {
   min-height: 100dvh;
   margin: 0;
   padding: 90px 24px 74px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", "Adjunted Verdana Fallback", sans-serif;
   background: url("/images/bg-intro-mobile.png") var(--red);
 }
 
