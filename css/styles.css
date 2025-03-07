@@ -73,7 +73,7 @@ body {
   min-height: 100dvh;
   margin: 0;
   padding: 90px 24px 74px;
-  font-family: "Poppins", "Adjunted Verdana Fallback", sans-serif;
+  font-family: "Poppins", "Adjunted Verdana Fallback";
   background: url("/images/bg-intro-mobile.png") var(--red);
 }
 
